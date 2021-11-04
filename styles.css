@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.main {
+    background-color: #15191f;
+    width: 70vw;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #4b178f;
+}
+.content{
+ /* border: 1px solid white;*/
+  width: 80%;
+  height: 100%;
+}
+.estatisticas{
+    margin: 20px;
+    display: flex;
+    gap: 25px;
+}
+.estatistica{
+    height: 170px;
+    background-color: #212330;
+    width:100%;
+}
+.estatistica h1{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+}
+.estatistica h2{
+    font-size: 14px;
+    text-align: center;
+    color: #4E5059;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+.fa-user{
+ color: #479ADE;
+ background-color: #28496C;
+ text-align: center;
+ padding: 8px 10px;
+ border-radius: 100%;
+}
+.icone{
+display: flex;
+justify-content: center;
+margin: 15px;
+}
+.estatistica h3{
+    text-align: center;
+    font-size: 12px;
+    color: #294F3C;
+    font-family: 'poppins', sans-serif;
+}
+.fa-dollar{
+ color: #294F3C;
+ background-color: thistle;
+ padding: 8px 10px;
+ border-radius: 100%;
+ text-align: center;
+}
+.fa-play{
+    color: #294f4f;
+    background-color: tan;
+    padding: 8px 10px;
+    border-radius: 100%;
+    text-align: center;
+}
+.fa-music{
+    color: #4e294f;
+    background-color: rgb(140, 210, 207);
+    padding: 8px 10px;
+    border-radius: 100%;
+    text-align: center;  
+}
+.estatistica .negative{
+    color: #622D3E;
+}
+.estatistique{
+    width: 50vw;
+    height: 65vh;
+    background-color:#212330;
+    
+}
+.estatistique h1{
+    display: flex;
+    margin-left: 1rem;
+    padding-top: 3rem;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+.estatistique .image {
+    margin: 0 auto;
+    height: 425px;
+    width: 682px;
+    position: absolute;
+}
